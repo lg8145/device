@@ -1,0 +1,35 @@
+.footerPagination {
+  background-color: #ffffff;
+  line-height: 54px;
+  font-size: 12px;
+  padding: 0 25px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  box-shadow: 0 -2px 9px 0 hsla(0,0%,74%,.5);
+
+  ._pagintion {
+    float: right;
+    margin-top: 14px;
+  }
+
+  .ant-pagination.mini .ant-pagination-item {
+    min-width: 20px;
+    height: 20px;
+    margin: 0;
+    line-height: 20px;
+  }
+
+  .ant-pagination-item-active {
+    background-color: #05A9F4;
+
+    a {
+      color: #fff;
+    }
+  }
+
+  .ant-select {
+    font-size: 12px;
+  }
+}

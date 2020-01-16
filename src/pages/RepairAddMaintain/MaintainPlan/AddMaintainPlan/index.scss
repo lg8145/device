@@ -1,0 +1,140 @@
+.AddMaintainPlan {
+  .ant-form-item-label {
+    width: 130px;
+  }
+
+  .ant-form-item {
+    margin-bottom: 0px;
+  }
+
+  .ant-table-wrapper {
+    margin-bottom: 170px;
+  }
+
+  .header {
+    >div {
+      display: inline-block;
+      height: 54px;
+      background-color: #fff;
+      line-height: 54px;
+      vertical-align: top;
+    }
+
+    .headerCon {
+      .title {
+        font-size: 20px;
+        font-family: PingFangSC-Medium, PingFang SC;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.85);
+      }
+
+      .orderStatus {
+        float: right;
+        margin-right: 20px;
+      }
+
+      .titleCon {
+        font-size: 14px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: #333;
+        padding-left: 10px;
+      }
+
+      .titleConNub {
+        font-size: 14px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: #595959;
+      }
+    }
+
+    .back {
+      width: 65px;
+      margin-right: 5px;
+      cursor: pointer;
+      text-align: center;
+      color: #BFBFBF;
+
+      &:hover {
+        color: #05A9F4
+      }
+    }
+
+    .back:hover {
+      color: #05A9F4
+    }
+
+    >div:last-child {
+      width: calc(100% - 70px);
+      font-size: 20px;
+      font-family: PingFangSC-Medium;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.85);
+      text-indent: 30px;
+    }
+  }
+
+  .warp {
+    padding-left: 5px;
+
+    .formDiv {
+      height: 65px;
+      line-height: 65px;
+      background-color: #fff;
+      margin-top: 1px;
+
+      .ant-form-item {
+        padding-top: 10px;
+        margin-bottom: 0px;
+        height: 60px;
+      }
+
+      .ant-form-explain {
+        margin-top: -6px;
+      }
+    }
+
+
+  }
+
+  .addRowBtn {
+    height: 54px;
+    line-height: 54px;
+
+    .ant-btn {
+      padding: 0 12px;
+    }
+
+    >button,
+    >span {
+      min-width: 75px;
+      font-size: 14px;
+      margin-left: 25px;
+    }
+
+    >label {
+      float: right;
+      margin-right: 30px;
+      font-size: 14px;
+    }
+  }
+
+  .addApply {
+    height: 54px;
+    line-height: 54px;
+    text-align: right;
+    padding-right: 25px;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 160px);
+    box-shadow: 0px -4px 9px 1px rgba(0, 0, 0, 0.05);
+    z-index: 2;
+
+    button {
+      margin-left: 20px;
+      min-width: 74px;
+    }
+  }
+}

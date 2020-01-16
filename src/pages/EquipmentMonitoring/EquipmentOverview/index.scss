@@ -1,0 +1,233 @@
+.EquipmentOverview {
+  margin: 30px;
+
+  .more {
+    float: right;
+    display: inline;
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(5, 169, 244, 1);
+    cursor: pointer;
+    padding-right: 20px;
+  }
+
+  .ant-table-thead>tr>th,
+  .ant-table-tbody>tr>td {
+    padding: 8px 16px;
+    overflow-wrap: break-word;
+  }
+
+  .headerTab {
+    background-color: #fff;
+    height: 46px;
+    font-size: 14px;
+    line-height: 46px;
+    // margin-bottom: 2px;
+    border-bottom: 1px solid #e9e9e9;
+
+    .tab {
+      display: inline-block;
+      margin: 0 0px;
+      cursor: pointer;
+      padding: 0 16px;
+    }
+
+    .active {
+      color: #05A9F4;
+      border-bottom: 2px solid;
+      line-height: 42px;
+    }
+  }
+
+  .top {
+    .box-top {
+      height: 88px;
+      border-radius: 2px 2px 0px 0px;
+      line-height: 88px;
+      padding: 0 20px;
+      background-color: #fff;
+      margin-bottom: 20px;
+      box-shadow: 0px 4px 7px 0px rgba(210, 210, 210, 0.5);
+      border-radius: 2px;
+
+      .imgCss {
+        width: 68px;
+        height: 68px;
+        border-radius: 34px;
+        margin-right: 20px;
+      }
+
+      .box-topTitle {
+        display: inline;
+        font-size: 14px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: #8C8C8C;
+        margin-left: 15px;
+      }
+
+      .box-topNub {
+        display: inline;
+        font-size: 30px;
+        font-family: HelveticaNeue;
+        color: rgba(51, 51, 51, 1);
+      }
+
+      .iconCss {
+        font-size: 48px;
+        position: relative;
+        top: 10px;
+      }
+    }
+  }
+
+  .DeviceWaring {
+    height: 196px;
+    background-color: #fff;
+    box-shadow: 0px 4px 7px 0px rgba(210, 210, 210, 0.5);
+    border-radius: 2px;
+
+    .active {
+      color: #05A9F4;
+      border-bottom: 2px solid;
+      line-height: 42px;
+    }
+  }
+
+  // }
+  .tableCss {
+    .ant-table-tbody>tr>td {
+      height: 35px;
+    }
+  }
+
+  .DevicesTwo {
+    height: 508px;
+    background-color: #fff;
+    box-shadow: 0px 4px 7px 0px rgba(210, 210, 210, 0.5);
+    border-radius: 2px;
+
+
+
+    .deviceWtoCon {
+      padding: 53px;
+
+      .deviceWtoKey {
+        font-size: 14px;
+        font-family: PingFangSC-Medium, PingFang SC;
+        font-weight: 500;
+        color: #333333;
+      }
+
+      .deviceWtoVal {
+        font-weight: 400;
+        color: #595959
+      }
+    }
+
+  }
+
+  .DevicesProportion {
+
+    .headerTab {
+      background-color: #fff;
+      height: 46px;
+      font-size: 14px;
+      line-height: 46px;
+      margin-bottom: 2px;
+      padding-left: 20px;
+      border-bottom: 1px solid #e9e9e9;
+
+      font-size: 16px;
+      font-family: PingFangSC-Medium, PingFang SC;
+      font-weight: 500;
+      color: rgba(51, 51, 51, 1);
+    }
+
+    .ant-divider-horizontal {
+      height: 1px;
+      background: rgba(233, 233, 233, 1);
+      margin: 0 0 20px 0;
+    }
+  }
+
+  .DevicesProportion-top {
+    height: 244px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 7px 0px rgba(210, 210, 210, 0.5);
+    border-radius: 2px;
+  }
+
+  .marginbottom {
+    margin-bottom: 20px;
+  }
+
+  .DevicesProportion-bottom {
+    height: 244px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 7px 0px rgba(210, 210, 210, 0.5);
+    border-radius: 2px;
+  }
+
+  // }
+  .WaringTOP {
+    height: 262px;
+    box-shadow: 0px 4px 7px 0px rgba(210, 210, 210, 0.5);
+    border-radius: 2px;
+    background-color: #fff;
+    margin-top: 20px;
+  }
+
+  .waringRecord {
+    height: 262px;
+    box-shadow: 0px 4px 7px 0px rgba(210, 210, 210, 0.5);
+    border-radius: 2px;
+    background-color: #fff;
+    margin-top: 20px;
+
+    .headerTab {
+      background-color: #fff;
+      height: 48px;
+      font-size: 14px;
+      line-height: 48px;
+      padding-left: 20px;
+      border-bottom: 0;
+      font-size: 16px;
+      font-family: PingFangSC-Medium, PingFang SC;
+      font-weight: 500;
+      color: rgba(51, 51, 51, 1);
+    }
+
+    .ant-divider-horizontal {
+      height: 1px;
+      background: rgba(233, 233, 233, 1);
+      margin: 0;
+    }
+  }
+
+  .MaintenanceRecord {
+    margin-top: 20px;
+
+    .headerTab {
+      background-color: #fff;
+      height: 48px;
+      font-size: 14px;
+      line-height: 48px;
+      padding-left: 20px;
+      border-bottom: 0;
+      font-size: 16px;
+      font-family: PingFangSC-Medium, PingFang SC;
+      font-weight: 500;
+      color: rgba(51, 51, 51, 1);
+      border-bottom: 1px solid #e9e9e9;
+    }
+
+    .ant-divider-horizontal {
+      height: 1px;
+      background: rgba(233, 233, 233, 1);
+      margin: 0;
+    }
+  }
+
+}

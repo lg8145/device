@@ -1,0 +1,32 @@
+.rootHeader {
+  padding: 0 0 0 16px!important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #001020;
+  color: #fff;
+
+  .headerTitle {
+    font-size: 20px;
+  }
+
+  .headerinfo {
+    .userbar {
+      img {
+        width: 18px;
+        height: 18px;
+        vertical-align: sub;
+        margin-right: 5px;
+      }
+    }
+
+    .logout {
+      width: 64px;
+      display: inline-block;
+      margin-left: 20px;
+      text-align: center;
+      cursor: pointer;
+      border-left: 1px solid #7d7d7d;
+    }
+  }
+}
